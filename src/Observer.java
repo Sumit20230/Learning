@@ -33,7 +33,7 @@ interface Observable {
     void notifyAllSubscribers(String video);
 }
 
-// Concrete Observable
+// Concrete Observable    //vjvdfdgvvcgdcgv
 class Channel implements Observable {
     private String name;
     private List<Observer> subs = new ArrayList<>();
